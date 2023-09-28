@@ -1,4 +1,5 @@
-#目标检测跟踪一体化系统
+##目标检测跟踪一体化系统
+【界面代码已开源，剩余代码后期开源（主要为siamcar、siamrpn++、siammask工程代码）】  
 
 
 ### 1. 系统介绍
@@ -52,7 +53,8 @@
 ![Local Image](./img_use/Snipaste_2023-09-22_15-20-36.png)  
 - 可选择界面  
 ![Local Image](./img_use/Snipaste_2023-09-22_15-28-50.png)  
-
+- 跟踪演示  
+![Local Image](./img_use/vis_03.png)  
 ###其它
 
 - 跟踪模型的输入图片是变色的，不管是在track还是在init过程中，两者的输入图如果不是变色的（[:,:,::-1]）则会导致跟踪效果大幅下降
@@ -61,5 +63,5 @@
 
 - 系统题目：目标检测跟踪一体化系统  
 - 作者：ChenHu  
-- Copyright： Free  
+- Copyright： Free  (请勿用于任何盈利性质的活动)
 - 更新时间： 20230922  
